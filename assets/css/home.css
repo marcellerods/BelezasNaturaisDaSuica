@@ -1,0 +1,148 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Espaço entre o texto e a imagem */
+    align-items: left;
+    width: 70%;
+    height: auto;
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3;
+
+}
+
+a:hover{
+opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    background-image: linear-gradient(#380f17,#8f0b13);
+    height: 10vh;
+}
+
+.nav-style{
+list-style: none;
+display: flex;
+}
+
+.nav-style li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+h1{
+text-align: center;
+font-size: 23px;
+padding-top: 20px;
+color:  black;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+}
+h2{
+    text-align: center;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 20px;
+    color:#3a3b3d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-area {
+    flex: 1;
+    padding: 20px;
+}
+
+.text-area h1 {
+    font-size: 48px;
+    color:#6c0102;
+    text-align: right;
+}
+
+.image-area {
+    flex: 1;
+    text-align: center;
+    justify-content: flex-end;
+    margin-left: 10px;
+}
+.image-area img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    display: block;
+    margin-top: 35px; /*Distância da imagem para a barra de navegação*/
+    margin-bottom: 25px;
+
+}
+.text-area{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 25px; /*Espaço entre a imagem e a barra de navegação*/
+}
+.box-text.p{
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+html, body {
+    height: 100%; /* Garante que a altura da página seja 100% */
+}
+
+.container{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 0 auto; /* Centraliza o container horizontalmente */
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+.box-text {
+    flex: 1;
+    padding: 20px;
+    background-color: #efdfc5;/* Cor de fundo da caixa */
+    border: 2px solid #ddd; /* Bordas da caixa */
+    width: 60%; /*Largura da caixa*/
+    border-radius: 20px; /* Bordas arredondadas */
+    text-align: center; /* Centraliza o texto */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adiciona sombra à caixa */
+    margin-top: 20px;
+    margin: 20px auto; /* Centraliza a caixa horizontalmente */
+}
+
+.box-text.p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+footer {
+    background-image: linear-gradient(#380f17,#8f0b13);
+    color: white;
+    text-align: center;
+    padding: 8rem;
+    margin-top: 2rem;
+}
+

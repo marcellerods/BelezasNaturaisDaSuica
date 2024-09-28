@@ -1,2 +1,2 @@
-# BelezasNaturaisDaSuica
-Trabalho de Web do B9, com HTML e CSS 
+# Belezas-Naturais
+Trabalho para obtenção de nota na matéria de programação web, belezas naturais da suiça 

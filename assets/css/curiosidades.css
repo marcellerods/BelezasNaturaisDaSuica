@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    color: #440101;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.4rem;
+    margin-top: 30px; /* Adiciona um espaçamento superior ao título */
+    margin-bottom: 30px;
+    font-weight:bold;
+}
+
+.logo {
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: linear-gradient(#380f17,#8f0b13);
+    height: 10vh;
+    padding-top: 0%;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.nav-style {
+    list-style: none;
+    display: flex;
+}
+
+.nav-style li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.dica-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar para a próxima linha se o conteúdo ultrapassar a largura */
+    justify-content: space-between; /* Espaço entre os elementos */
+    padding: 1rem;
+}
+
+
+.dica-text {
+    display: flex;
+    flex-direction: column; /* Muda a direção para coluna para centralizar imagem e texto */
+    align-items: center;    /* Centraliza a imagem e o texto dentro da caixa */
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 1.5rem;
+    width: 50%; /*Largura da caixa*/
+    border: 2px solid #ddd; /* Bordas da caixa */
+    margin:20px auto; 
+    flex-wrap: wrap;
+
+}
+
+.dica-box img {
+    max-width: 100%;       /* Garante que a imagem seja responsiva */
+    height: auto;          /* Mantém a proporção da imagem */
+    border: 2px solid #ddd; /* Bordas da imagem */
+    border-radius: 20px;    /* Bordas arredondadas */
+    margin-bottom: 1rem;    /* Espaço entre a imagem e o texto */
+}
+
+.dica-text h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #440101;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.dica-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+    background-image: linear-gradient(#380f17, #8f0b13);
+    color: white;
+    text-align: center;
+    padding: 8rem;
+    margin-top: 2rem;
+}
+
+
+  

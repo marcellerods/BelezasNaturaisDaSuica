@@ -1,0 +1,138 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;  /* Permite que as caixas quebrem para a próxima linha quando necessário */
+    justify-content: space-between;  /* Adiciona espaço entre as caixas */
+    align-items: flex-start;
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3;
+    
+}
+
+a:hover{
+opacity: 0.7;
+}
+
+.logo{
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background-image: linear-gradient(#380f17,#8f0b13);
+    height: 10vh;
+}
+
+.nav-style{
+list-style: none;
+display: flex;
+}
+
+.nav-style li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+h1{
+text-align: center;
+font-size: 23px;
+padding-top: 20px;
+color:  black;
+}
+.dica-container {
+    padding: 1rem;
+    justify-content: center;
+}
+
+.dica-text {
+    display: flex;
+    flex-direction: row; /* Muda a direção para coluna para centralizar imagem e texto */
+    align-items: center;    /* Centraliza a imagem e o texto dentro da caixa */
+    background-color: #efdfc5;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 1.5rem;
+    width: 80%; /* Garantir que todas as caixas tenham a mesma largura */
+    border: 2px solid #ddd; /* Bordas da caixa */
+    margin:50px auto; 
+    
+    
+
+}
+
+.dica-box img {
+    flex: 1 1 30%;  /* Faz as caixas ocuparem 30% da largura do contêiner */
+    box-sizing: border-box;  /* Inclui padding e bordas no cálculo da largura */
+    max-width: 45%;  /* Garante que as caixas não excedam 30% da largura */
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.dica-text h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #440101;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 20px;
+}
+.text h2{
+    padding-top: 20px;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: #440101;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.text p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+   
+}
+.dica-text p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: black;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.dica-box p {
+    display: flex;
+    font-size: 1.1rem;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Alinha o texto horizontalmente */
+    height: auto; /* Altura do contêiner, ajuste conforme necessário */
+    
+    
+}
+
+footer {
+    background-image: linear-gradient(#380f17, #8f0b13);
+    color: white;
+    text-align: center;
+    padding: 8rem;
+    margin-top: 2rem;
+}
